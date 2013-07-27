@@ -29,6 +29,8 @@ header("Content-type: text/html; charset=utf-8");
     <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
 
+    <script src="/static/ckeditor/ckeditor.js"></script>
+
     <style>
         .bs-footer {
             padding-top: 40px;
