@@ -45,7 +45,7 @@ header("Content-type: text/html; charset=utf-8");
 <!-- Docs master nav -->
 <div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
     <div class="container">
-        <a href="../index.php" class="navbar-brand">GTA 한국 팬사이트</a>
+        <a href="../index.php" class="navbar-brand">GTA 한국</a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>

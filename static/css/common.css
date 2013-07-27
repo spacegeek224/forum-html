@@ -7,10 +7,14 @@
 /*}*/
 
 h1, h2, h3, h4, h5, h6, body {
-    font-family: "Nanum Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", "Apple SD Gothic Neo", "Nanum Gothic", Helvetica, Arial, sans-serif;
 }
 
-h1,h2 {
+h1, h2, h3, h4, h5, h6 {
 
     font-weight: bold;
 }
+
+/*.container {*/
+    /*max-width: 1024px;*/
+/*}*/
