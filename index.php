@@ -20,34 +20,9 @@ require_once("include/header.php");
 <div class="container bs-docs-container">
 <div class="row">
     <div class="col-lg-3">
-        <div class="bs-sidebar">
-            <ul class="nav bs-sidenav">
-
-                <li>
-                    <a href="#download">Download Bootstrap</a>
-                    <ul class="nav">
-                        <li><a href="#download-options">Download options</a></li>
-                        <li><a href="#download-cdn">Bootstrap CDN</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#whats-included">What's included</a>
-                </li>
-                <li>
-                    <a href="#template">Basic template</a>
-                </li>
-                <li>
-                    <a href="#browsers">Browser support</a>
-                </li>
-                <li>
-                    <a href="#license-faqs">License FAQs</a>
-                </li>
-                <li>
-                    <a href="#customizing">Customizing Bootstrap</a>
-                </li>
-
-            </ul>
-        </div>
+        <?php
+        include ("include/sidebar.php");
+        ?>
     </div>
     <div class="col-lg-9">
         <div class="bs-docs-section">
