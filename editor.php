@@ -8,20 +8,27 @@
  */
 
 require_once("include/header.php");
+
 ?>
 
-<div class="container">
-    <h1>이것은 h1</h1>
-    <h2>이것은 h2</h2>
-    <h3>이것은 h3</h3>
-    <h4>이것은 h4</h4>
-    <h5>이것은 h5</h5>
-    <h6>이것은 h6</h6>
-    <textarea id="editor1"></textarea>
-    <script>
-        CKEDITOR.replace( 'editor1');
-    </script>
-</div>
+<form method="post">
+    <div class="container">
+
+
+        <textarea id="editor1" name="content"><?php echo $_POST["content"]; ?></textarea>
+        <script>
+            CKEDITOR.replace('editor1', {});
+        </script>
+        <input type="submit" />
+
+        <div>
+            <?php
+            echo $_POST["content"];
+            ?>
+        </div>
+
+    </div>
+</form>
 
 <?php
 require_once("include/footer.php");
