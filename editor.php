@@ -17,7 +17,9 @@ require_once("include/header.php");
 
         <textarea id="editor1" name="content"><?php echo $_POST["content"]; ?></textarea>
         <script>
-            CKEDITOR.replace('editor1', {});
+            CKEDITOR.replace('editor1',{
+                filebrowserImageUploadUrl: "/image_upload.php?type=Images"
+            });
         </script>
         <input type="submit" />
 

@@ -7,12 +7,7 @@
 /*}*/
 
 h1, h2, h3, h4, h5, h6, body {
-    font-family: "Helvetica Neue", "Apple SD Gothic Neo", "Nanum Gothic", Helvetica, Arial, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-
-    font-weight: bold;
+    font-family: "Helvetica Neue", "Apple SD Gothic Neo", "Malgun Gothic", Helvetica, Arial, sans-serif;
 }
 
 /*.container {*/
