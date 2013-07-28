@@ -14,7 +14,6 @@ require_once("include/header.php");
 <form method="post">
     <div class="container">
 
-
         <textarea id="editor1" name="content"><?php echo $_POST["content"]; ?></textarea>
         <script>
             CKEDITOR.replace('editor1',{

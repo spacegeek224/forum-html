@@ -8,8 +8,9 @@
 
 h1, h2, h3, h4, h5, h6, body {
     font-family: "Helvetica Neue", "Apple SD Gothic Neo", "Malgun Gothic", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
 }
 
-/*.container {*/
-    /*max-width: 1024px;*/
-/*}*/
+.container {
+    max-width: 1024px;
+}
