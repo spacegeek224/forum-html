@@ -2,7 +2,7 @@
 require_once("include/header.php");
 ?>
 
-<div class="bs-header">
+<div class="bs-header" style="">
     <div class="container">
         <h1>Getting started</h1>
         <p>An overview of Bootstrap, how to download and use, basic templates and examples, and more.</p>
