@@ -7,7 +7,7 @@
  */
 ?>
 
-<div class="bs-sidebar">
+<div class="bs-sidebar hidden-print" role="complementary">
     <ul class="nav bs-sidenav">
 
         <li>

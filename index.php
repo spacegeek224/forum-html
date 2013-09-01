@@ -2,7 +2,8 @@
 require_once("include/header.php");
 ?>
 
-<div class="bs-header" style="">
+<!-- Docs page layout -->
+<div class="bs-header" style="display:none; ">
     <div class="container">
         <h1>Getting started</h1>
         <p>An overview of Bootstrap, how to download and use, basic templates and examples, and more.</p>
@@ -16,18 +17,27 @@ require_once("include/header.php");
     </div>
 </div>
 
+<!-- Callout for the old docs link -->
+<div class="bs-old-docs" style="display: none; ">
+    <div class="container">
+        <strong>
+            <a href="../2.3.2/">Looking for Bootstrap 2.3.2 docs?</a>
+        </strong>
+        We've moved it to a new home while we push forward with Bootstrap 3. <a href="http://blog.getbootstrap.com/">Read the blog</a> for details.
+    </div>
+</div>
 
 <div class="container bs-docs-container">
 <div class="row">
-    <div class="col-lg-3">
+    <div class="col-md-3">
         <?php
         include ("include/sidebar.php");
         ?>
     </div>
-    <div class="col-lg-9">
+    <div class="col-md-9" role="main">
         <div class="bs-docs-section">
             <div class="page-header">
-                <h1>무엇이든 물어보세요</h1>
+                <h1 id="">무엇이든 물어보세요</h1>
             </div>
             <h3>Download compiled CSS and JS</h3>
             <p class="lead">There are a few easy ways to quickly get started with Bootstrap, each one appealing to a different skill level and use case. Read through to see what suits your particular needs.</p>

@@ -43,30 +43,30 @@ header("Content-type: text/html; charset=utf-8");
 </head>
 <body>
 
-
 <!-- Docs master nav -->
-<div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
     <div class="container">
-        <a href="../index.php" class="navbar-brand">GTA 한국</a>
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <div class="nav-collapse collapse bs-navbar-collapse">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../" class="navbar-brand">GTA한국</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="../getting-started/index.html">새소식</a></li>
-                <li class=""><a href="../getting-started/index.html">게임정보</a></li>
-                <li class=""><a href="../getting-started/index.html">자유게시판</a></li>
-                <li class=""><a href="../getting-started/index.html">동영상</a></li>
-                <li class=""><a href="../getting-started/index.html">스크린샷</a></li>
-                <li class=""><a href="../getting-started/index.html">GTA온라인</a></li>
+                <li class="active"><a href="../getting-started">새소식</a></li>
+                <li><a href="../css">게임정보</a></li>
+                <li><a href="../components">자유게시판</a></li>
+                <li><a href="../javascript">동영상</a></li>
+                <li><a href="../customize">스크린샷</a></li>
+                <li><a href="../customize">GTA온라인</a></li>
             </ul>
-
             <ul class="nav navbar-nav pull-right">
                 <li><a href="http://getbootstrap.com/2.3.2/">관리자</a></li>
             </ul>
-
-        </div>
+        </nav>
     </div>
-</div>
+</header>
