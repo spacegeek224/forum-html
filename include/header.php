@@ -23,6 +23,7 @@ header("Content-type: text/html; charset=utf-8");
     <link href="/static/css/docs.css" rel="stylesheet">
     <link href="/static/css/common.css" rel="stylesheet">
     <link href="/static/css/fonts.css" rel="stylesheet">
+    <link href="/static/css/news.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
