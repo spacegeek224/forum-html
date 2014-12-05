@@ -1,6 +1,7 @@
 <?php
 require_once("include/header.php");
 ?>
+<?php header('Content-Type: text/html; charset=utf-8'); ?>
 
 <!-- Docs page layout -->
 <div class="bs-header" style="display:none; ">
